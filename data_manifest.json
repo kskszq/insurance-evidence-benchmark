@@ -1,0 +1,66 @@
+{
+  "release_date": "2026-11-02",
+  "scope": "retrieval corpus, original and paired query sets, and document metadata/summaries",
+  "files": {
+    "questions_original.json": {
+      "records": 1908,
+      "source_sha256": "e45e5e1825003ab513bd50f4fcd0652d6afb63290fa12d9af4466f471b4ae873",
+      "transformation": "remove evidence.file_path only; preserve IDs, question text, reference answers and remaining evidence labels",
+      "bytes": 1830819,
+      "sha256": "d99dbbb3b4504879c308c2e0eebd5046c54d258f66e5eaf038d006db087e03ea"
+    },
+    "questions_colloquial.json": {
+      "records": 500,
+      "source_sha256": "fc938c91a6160702d708329cbcd464b3e9e77589c8a23e847c1bf4626434ba11",
+      "transformation": "remove evidence.file_path only; preserve IDs, question text, reference answers and remaining evidence labels",
+      "bytes": 476979,
+      "sha256": "24dbcdf0399d38b84ad5657b2038dfafbc3574b4bd4fe8eda1de41d3d680f5e6"
+    },
+    "questions_implicit_source.json": {
+      "records": 500,
+      "source_sha256": "54eb808b7b6bbddd9ef94521692dabbb8371b90620122cc8ad864b00f4ab2be7",
+      "transformation": "remove evidence.file_path only; preserve IDs, question text, reference answers and remaining evidence labels",
+      "bytes": 475446,
+      "sha256": "7da8d3142f6825d911aac869cf1727ba589cac106306a6a8987d1749f627a7ad"
+    },
+    "document_profiles.json": {
+      "records": 1773,
+      "distinct_filenames": 1700,
+      "transformation": "none; duplicate document records preserved",
+      "bytes": 1107273,
+      "sha256": "fb2dd40a78bda91451afcbfff9bc8976a7c99b750dddbb41e6a3c2a582f3f071"
+    }
+  },
+  "archives": {
+    "corpus.jsonl.gz": {
+      "parts": [
+        "corpus.jsonl.gz.part0001",
+        "corpus.jsonl.gz.part0002",
+        "corpus.jsonl.gz.part0003",
+        "corpus.jsonl.gz.part0004",
+        "corpus.jsonl.gz.part0005",
+        "corpus.jsonl.gz.part0006",
+        "corpus.jsonl.gz.part0007",
+        "corpus.jsonl.gz.part0008",
+        "corpus.jsonl.gz.part0009",
+        "corpus.jsonl.gz.part0010"
+      ],
+      "sha256": "1370dc24df82108cb4657976c95f1f3f1f8dd74f8d36ce23373ffe9627091d55",
+      "uncompressed_sha256": "a6bea256334bbb31ebf54c7d735708533fadcec788921910a7b0b81871642fca",
+      "uncompressed_filename": "corpus.jsonl",
+      "records": 130473,
+      "part_checksums": {
+        "corpus.jsonl.gz.part0001": "0211e697a4947667d98bcafedab0fbd57e7684d86ecb103535a88859bdca5051",
+        "corpus.jsonl.gz.part0002": "d15795523c6a97a67f9e5b38f65ab018830d1ef3e7251f148b2b48efae2c9fe2",
+        "corpus.jsonl.gz.part0003": "2f024c4b02cea332848b4acc2e9b168137f328754c533508f0551d4158952c54",
+        "corpus.jsonl.gz.part0004": "a9c2f5168056e285b8fc373eaa2fe7555631782126c5b917ed4cd6113e91dad8",
+        "corpus.jsonl.gz.part0005": "63786f5de0aaf8b29342276e4d74de84cb8b7c2559eec9568357a6de84f098b0",
+        "corpus.jsonl.gz.part0006": "cdf80274686251dad6647bef1e864537add8bdde839f9c351285e84e8c225459",
+        "corpus.jsonl.gz.part0007": "60e96221b0c282eae139ee4408bca4cebd964d207e8b2cd1c0d3690eeb239d35",
+        "corpus.jsonl.gz.part0008": "4e561c586f4896611b6bd55b690ac0e67eb02ace00a0b9c192f5d35f87c3e1a6",
+        "corpus.jsonl.gz.part0009": "eee07461440bd450954c04682f19f79abd4729c27ddf45d9e829296d3b1afaa1",
+        "corpus.jsonl.gz.part0010": "9da537971636be836d8fd485f23eccfa28c1f0539732577839beba135cd4b6cd"
+      }
+    }
+  }
+}
