@@ -2,8 +2,6 @@
 
 InSARBench is a Chinese insurance evidence-retrieval benchmark for studying evidence localization and source consistency across insurers. The resource includes a passage corpus, an original question set, two paired challenge sets, document summaries, and the core source-aware retrieval modules.
 
-Resource publication date: 2026-11-02.
-
 ## Repository contents
 
 | File | Contents |
